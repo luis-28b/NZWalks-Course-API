@@ -21,10 +21,25 @@ namespace NZWalks.API.Controllers
             this.mapper = mapper;
         }
 
+        // GET: /api/walks?filterOn=Name&filterQuery=Test&sortBy=Name&isAscending=true
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll(
+            [FromQuery] string? filterOn,
+            [FromQuery] string? filterQuery,
+            [FromQuery] string? sortBy,
+            [FromQuery] bool? isAscending,
+            [FromQuery] int pageNumber = 1,
+            [FromQuery] int pageSize = 1000
+        )
         {
-            var walkDomainModel = await walkRepository.GetAllAsync();
+            var walkDomainModel = await walkRepository.GetAllAsync(
+                filterOn,
+                filterQuery,
+                sortBy,
+                isAscending ?? true,
+                pageNumber,
+                pageSize
+             );
             var regionsDto = mapper.Map<List<WalkDTO>>(walkDomainModel);
             return Ok(regionsDto);
         }
