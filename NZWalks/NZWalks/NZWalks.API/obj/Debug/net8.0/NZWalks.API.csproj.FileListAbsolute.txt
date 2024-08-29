@@ -168,3 +168,10 @@ C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\obj\Debug\net8
 C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.genruntimeconfig.cache
 C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\obj\Debug\net8.0\ref\NZWalks.API.dll
 C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\luis1\dev\NZWalks-Course-API\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
