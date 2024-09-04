@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NZWalks.API.Models.DTO;
+using NZWalks.API.Repositories;
 
 namespace NZWalks.API.Controllers
 {
@@ -10,9 +11,15 @@ namespace NZWalks.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly UserManager<IdentityUser> userManager;
-        public AuthController(UserManager<IdentityUser> userManager)
+        private readonly ITokenRepository tokenRepository;
+
+        public AuthController(
+            UserManager<IdentityUser> userManager,
+            ITokenRepository tokenRepository
+        )
         {
             this.userManager = userManager;
+            this.tokenRepository = tokenRepository;
         }
         [HttpPost]
         [Route("Register")]
@@ -38,6 +45,34 @@ namespace NZWalks.API.Controllers
                 }
             }
             return BadRequest("Something went wrong");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login([FromBody] LoginRequestDTO loginRequestDTO)
+        {
+            var user = await userManager.FindByEmailAsync(loginRequestDTO.UserName);
+            if (user != null)
+            {
+                var checkedPasswordResult =
+                    await userManager.CheckPasswordAsync(user, loginRequestDTO.Password);
+                if (checkedPasswordResult)
+                {
+                    // Set roles
+                    var roles = await userManager.GetRolesAsync(user);
+                    if (roles != null)
+                    {
+                        var jwtToken = tokenRepository.CreateJWTToken(user, roles.ToList());
+
+                        var response = new LoginResponseDTO
+                        {
+                            JwtToken = jwtToken
+                        };
+                        // Create token
+                        return Ok(response);
+                    }
+                }
+            }
+            return BadRequest("Username or password incorrect");
         }
     }
 }
