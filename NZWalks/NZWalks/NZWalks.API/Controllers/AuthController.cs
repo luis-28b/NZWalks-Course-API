@@ -48,6 +48,7 @@ namespace NZWalks.API.Controllers
         }
 
         [HttpPost]
+        [Route("Login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDTO loginRequestDTO)
         {
             var user = await userManager.FindByEmailAsync(loginRequestDTO.UserName);

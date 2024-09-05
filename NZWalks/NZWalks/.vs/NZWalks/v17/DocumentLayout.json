@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\luis1\\dev\\NZWalks-Course-API\\NZWalks\\NZWalks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{68573B92-69EA-4D52-AB16-3043E597E2FB}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\luis1\\dev\\nzwalks-course-api\\nzwalks\\nzwalks\\nzwalks.api\\migrations\\20240905014713_adding images table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68573B92-69EA-4D52-AB16-3043E597E2FB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\migrations\\20240905014713_adding images table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68573B92-69EA-4D52-AB16-3043E597E2FB}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\luis1\\dev\\nzwalks-course-api\\nzwalks\\nzwalks\\nzwalks.api\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68573B92-69EA-4D52-AB16-3043E597E2FB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68573B92-69EA-4D52-AB16-3043E597E2FB}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\luis1\\dev\\nzwalks-course-api\\nzwalks\\nzwalks\\nzwalks.api\\models\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68573B92-69EA-4D52-AB16-3043E597E2FB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\models\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68573B92-69EA-4D52-AB16-3043E597E2FB}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\luis1\\dev\\nzwalks-course-api\\nzwalks\\nzwalks\\nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68573B92-69EA-4D52-AB16-3043E597E2FB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240905014713_Adding Images table.cs",
+              "DocumentMoniker": "C:\\Users\\luis1\\dev\\NZWalks-Course-API\\NZWalks\\NZWalks\\NZWalks.API\\Migrations\\20240905014713_Adding Images table.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Migrations\\20240905014713_Adding Images table.cs",
+              "ToolTip": "C:\\Users\\luis1\\dev\\NZWalks-Course-API\\NZWalks\\NZWalks\\NZWalks.API\\Migrations\\20240905014713_Adding Images table.cs",
+              "RelativeToolTip": "NZWalks.API\\Migrations\\20240905014713_Adding Images table.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T01:47:13.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NZWalksDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\luis1\\dev\\NZWalks-Course-API\\NZWalks\\NZWalks\\NZWalks.API\\Data\\NZWalksDbContext.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Data\\NZWalksDbContext.cs",
+              "ToolTip": "C:\\Users\\luis1\\dev\\NZWalks-Course-API\\NZWalks\\NZWalks\\NZWalks.API\\Data\\NZWalksDbContext.cs",
+              "RelativeToolTip": "NZWalks.API\\Data\\NZWalksDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T01:45:08.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\luis1\\dev\\NZWalks-Course-API\\NZWalks\\NZWalks\\NZWalks.API\\Models\\Domain\\Image.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Models\\Domain\\Image.cs",
+              "ToolTip": "C:\\Users\\luis1\\dev\\NZWalks-Course-API\\NZWalks\\NZWalks\\NZWalks.API\\Models\\Domain\\Image.cs",
+              "RelativeToolTip": "NZWalks.API\\Models\\Domain\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T01:39:23.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\luis1\\dev\\NZWalks-Course-API\\NZWalks\\NZWalks\\NZWalks.API\\Program.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Program.cs",
@@ -35,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "RegionsController.cs",
               "DocumentMoniker": "C:\\Users\\luis1\\dev\\NZWalks-Course-API\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\RegionsController.cs",
@@ -43,8 +94,7 @@
               "RelativeToolTip": "NZWalks.API\\Controllers\\RegionsController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwC8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T00:37:46.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T00:37:46.355Z"
             }
           ]
         }
